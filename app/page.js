@@ -1,4 +1,9 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillYoutube
+} from "react-icons/ai"
 
 export default function Home() {
   return (
@@ -13,6 +18,19 @@ export default function Home() {
             <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-4 rounded-md ml-8" href="#">Resume</a></li>
           </ul>
         </nav>
+        <div>
+          <h2>Bruno Lima</h2>
+          <h3>Developer</h3>
+          <p>              
+            Freelancer providing services for programming and design content
+            needs. Join me down below and let's get cracking!
+          </p>
+        </div>
+        <div>
+          <AiFillInstagram />
+          <AiFillLinkedin />
+          <AiFillYoutube />
+        </div>
       </section>
     </main>
   )
